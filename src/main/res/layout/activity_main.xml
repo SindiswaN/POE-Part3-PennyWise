@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="16dp"
+    tools:context=".ui.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- App title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💰 PENNYWISE BUDGET APP"
+            android:textSize="26sp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Button container -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:elevation="6dp"
+            android:padding="24dp"
+            android:layout_marginBottom="32dp"
+            android:clipToOutline="true">
+
+            <Button
+                android:id="@+id/addCategoryButton"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="➕Add Category"
+                android:textAllCaps="false"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="#4A6FA5" />
+
+            <Button
+                android:id="@+id/addEntryButton"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📝Add Entry"
+                android:textAllCaps="false"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="#5D8A66"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/viewEntriesButton"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📂View Entries"
+                android:textAllCaps="false"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="#6D5B93"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/setGoalsButton"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🎯Set Goals"
+                android:textAllCaps="false"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="#D4A76A"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/viewCategoryTotalsButton"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📊Category Totals"
+                android:textAllCaps="false"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="#7C9EB2"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/viewBudgetFeedbackButton"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="💬Budget Feedback"
+                android:textAllCaps="false"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="#8F7E6F"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/viewGamificationButton"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🏆Gamification"
+                android:textAllCaps="false"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="#B76E79"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/viewGraphButton"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📈View Spending Graph"
+                android:textAllCaps="false"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#5F7D8B"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/logoutButton"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🚪Logout"
+                android:textAllCaps="false"
+                android:backgroundTint="#C45B56"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

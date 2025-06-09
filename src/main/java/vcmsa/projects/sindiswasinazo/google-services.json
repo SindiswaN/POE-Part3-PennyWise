@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1011848372107",
+    "firebase_url": "https://sindiswasinazo-default-rtdb.firebaseio.com",
+    "project_id": "sindiswasinazo",
+    "storage_bucket": "sindiswasinazo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011848372107:android:1d73c0a5435d0f6836998e",
+        "android_client_info": {
+          "package_name": "vcmsa.projects.sindiswasinazo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdz5v7Cc7ia9PYNtk7XvhYJPxGU1uPbuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
