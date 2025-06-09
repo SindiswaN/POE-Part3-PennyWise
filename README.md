@@ -2,10 +2,13 @@
 PennyWise – Personal Budget Tracker
 PennyWise is an innovative Android budgeting application designed to help users track expenses, manage budgets, and gain financial insights. Developed in Kotlin with Firebase integration, the app prioritizes real-time data, usability, and intelligent financial management.
 👩‍💻 Student Details
+
 •	Name: [Your Name]
 •	Module: OPSC6311
 •	Project: Portfolio of Evidence – PennyWise Budget Tracker
+
 📱 App Features Overview
+
 ✔ User Authentication
 •	Sign up / Login via Firebase Authentication.
 ✔ Expense Tracking
