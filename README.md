@@ -4,13 +4,17 @@ PennyWise is an innovative Android budgeting application designed to help users 
 👩‍💻 Student Details
 
 •	Name: [Your Name]
+
 •	Module: OPSC6311
+
 •	Project: Portfolio of Evidence – PennyWise Budget Tracker
 
-📱 App Features Overview
+*📱 App Features Overview
 
 ✔ User Authentication
+
 •	Sign up / Login via Firebase Authentication.
+
 ✔ Expense Tracking
 •	Add, categorize, and review expenses.
 •	Filter by date, type, and amount.
