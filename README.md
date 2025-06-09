@@ -139,6 +139,14 @@ o	ui/views/ → CustomGraphView
 
 •	Improved offline caching and biometric login options planned.
 
+**📹 YouTube Demonstration Video**  
+
+•	▶️ https://youtu.be/YOUR_DEMO_VIDEO_LINK
+
+**🗂 GitHub Repository**
+
+•	📂 https://github.com/SindiswaN/POE-Part3-PennyWise.git
+
 **📬 Contact**
 
 For questions related to this project, contact:
